@@ -5,6 +5,7 @@ public class TicTacToeMain {
         System.out.println("Welcome to the  TicTacToe Game");
         TicTacToe.assignEmptySpace();
         TicTacToe.chooseALetter();
+        TicTacToe.showBoard();
     }
 
 }
