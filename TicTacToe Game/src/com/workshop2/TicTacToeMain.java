@@ -6,6 +6,7 @@ public class TicTacToeMain {
         TicTacToe.assignEmptySpace();
         TicTacToe.chooseALetter();
         TicTacToe.showBoard();
+        TicTacToe.selectIndex();
     }
 
 }

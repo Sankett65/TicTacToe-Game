@@ -48,4 +48,12 @@ public class TicTacToe {
             System.out.println();
         }
     }
+    public static void selectIndex(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Select the index: ");
+        int selectInd= sc.nextInt(10);
+        char[] c =new char[selectInd];
+        USER= (char) selectInd;
+        System.out.println(USER);
+    }
 }
